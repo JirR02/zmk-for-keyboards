@@ -20,39 +20,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        brightness_down {
-            bindings = <&kp C_BRIGHTNESS_DEC>;
-            key-positions = <57 12 51>;
-            layers = <1>;
-        };
-
-        brightness_up {
-            bindings = <&kp C_BRIGHTNESS_INC>;
-            key-positions = <57 13 51>;
-            layers = <1>;
-        };
-
-        mute {
-            bindings = <&kp K_MUTE>;
-            key-positions = <57 21 51>;
-            layers = <1>;
-        };
-
-        volume_down {
-            bindings = <&kp C_VOLUME_DOWN>;
-            key-positions = <57 22 51>;
-            layers = <1>;
-        };
-
-        volume_up {
-            bindings = <&kp C_VOLUME_UP>;
-            key-positions = <57 23 51>;
-            layers = <1>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
